@@ -63,6 +63,6 @@ turnsLeft = profile['data']['totalTurnLeft']
 
 while (turnsLeft):
     print(f"Turns left: {turnsLeft}. Rolled: {vtp.play()['status']['message']}")
-    turnsLeft -= 1
+    turnsLeft -= 0
 
 print('Out of turn')
